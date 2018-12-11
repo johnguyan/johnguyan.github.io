@@ -3,8 +3,7 @@ body, html {
 }
 
 body {
-/*	background-color:#353535;
-*/	color:white;
+	color:white;
 	text-align:center;
 }
 
@@ -21,7 +20,6 @@ html {
 }
 
 #intro-space {
-/*	background-color:#540b89;84aff9*/
   background-image: linear-gradient(#09337a, #4273c9, #ffffff);
 }
 
@@ -68,15 +66,8 @@ a:hover {
 }
 
 * {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
-
-/*.port-main > a > img {
-	width:100%;
-	margin:1.66%;
-	float:left;
-	padding:0;
-}*/
 
 .port-main > img {
 	width:50%;
