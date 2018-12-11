@@ -3,8 +3,8 @@ body, html {
 }
 
 body {
-	background-color:#353535;
-	color:white;
+/*	background-color:#353535;
+*/	color:white;
 	text-align:center;
 }
 
@@ -16,6 +16,14 @@ html {
 	flex-direction: column;
 }
 
+#portfolio-space {
+	color: black;
+}
+
+#intro-space {
+	background-color:#1caedb;
+}
+
 #myface {
 	height:200px;
 	width:200px;
@@ -25,7 +33,7 @@ html {
 
 .icon {
 	padding: 0 1%;
-	font-size: 25px;
+	font-size: 40px;
 }
 
 a {
@@ -61,13 +69,22 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
 }
 
-.port-main > a > img {
+/*.port-main > a > img {
 	width:100%;
 	margin:1.66%;
 	float:left;
 	padding:0;
+}*/
+
+.port-main > img {
+	width:50%;
+	margin: 5%;
 }
 
 #port-header {
 	padding-top:100px;
+}
+
+.intro-text {
+	font-size:20px;
 }
