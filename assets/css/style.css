@@ -13,7 +13,7 @@ html {
 }
 
 #intro-space, #portfolio-space {
-	flex-direction:column;
+	flex-direction: column;
 }
 
 #myface {
@@ -61,12 +61,13 @@ a:hover {
     font-family: 'Roboto Mono', monospace;
 }
 
-#port-header {
-	padding-top: 20px;
-}
-
-#port-main > a > img {
-	width:30%;
+.port-main > a > img {
+	width:100%;
 	margin:1.66%;
 	float:left;
+	padding:0;
+}
+
+#port-header {
+	padding-top:100px;
 }
