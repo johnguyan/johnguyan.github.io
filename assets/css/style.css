@@ -8,7 +8,11 @@ body {
 	text-align:center;
 }
 
-#intro-space {
+html {
+  scroll-behavior: smooth;
+}
+
+#intro-space, #portfolio-space {
 	flex-direction:column;
 }
 
@@ -20,7 +24,7 @@ body {
 }
 
 .icon {
-	padding: 0 20px;
+	padding: 0 1%;
 	font-size: 25px;
 }
 
@@ -47,10 +51,22 @@ a:hover {
 }
 
 #next {
-	font-size:50px;
+	font-size:30px;
 	animation-name: flash;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
 }
 
+* {
+    font-family: 'Roboto Mono', monospace;
+}
 
+#port-header {
+	padding-top: 20px;
+}
+
+#port-main > a > img {
+	width:30%;
+	margin:1.66%;
+	float:left;
+}
