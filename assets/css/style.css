@@ -1,0 +1,56 @@
+body, html {
+	height:100%;
+}
+
+body {
+	background-color:#353535;
+	color:white;
+	text-align:center;
+}
+
+#intro-space {
+	flex-direction:column;
+}
+
+#myface {
+	height:200px;
+	width:200px;
+	margin-bottom: 40px;
+	opacity: 0.8;
+}
+
+.icon {
+	padding: 0 20px;
+	font-size: 25px;
+}
+
+a {
+	color:white;
+}
+
+a:hover {
+	color:gray;
+}
+
+@keyframes flash {
+	0% {opacity: 0;}
+	10% {opacity: 0.2;}
+	20% {opacity: 0.4;}
+	30% {opacity: 0.6;}
+	40% {opacity: 0.8;}
+	50% {opacity: 1;}
+	60% {opacity: 0.8;}
+	70% {opacity: 0.6;}
+	80% {opacity: 0.4;}
+	90% {opacity: 0.2;}
+	100% {opacity: 0;}
+}
+
+#next {
+	font-size:50px;
+	animation-name: flash;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+
