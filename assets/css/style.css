@@ -20,7 +20,7 @@ html {
 }
 
 #intro-space {
-  background-color: #09337a;
+  background-color: #fcae07;
 }
 
 #myface {
@@ -62,7 +62,7 @@ a:hover {
 	animation-name: flash;
 	animation-duration: 2s;
 	animation-iteration-count: infinite;
-	color:#4273c9;
+	color:#ffffff;
 }
 
 * {
