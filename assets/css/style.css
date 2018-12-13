@@ -20,7 +20,7 @@ html {
 }
 
 #intro-space {
-  background-color: #09337a;
+  background-color: #23448c;
 }
 
 #myface {
@@ -80,4 +80,14 @@ a:hover {
 
 .intro-text {
 	font-size:20px;
+}
+
+.intro-name {
+	font-size: 40px;
+}
+
+.btn-secondary {
+	background-color:white;
+	color: black;
+	border: solid 2px black;
 }
